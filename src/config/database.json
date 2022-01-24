@@ -1,0 +1,26 @@
+{
+    "development": {
+        "username": "postgres",
+        "password": "postgres",
+        "database": "6info2021-2",
+        "host": "localhost",
+        "port": "5433",
+        "dialect": "postgres"
+    },
+    "test": {
+        "username": "postgres",
+        "password": "postgres",
+        "database": "6info2021-2_test",
+        "host": "localhost",
+        "port": "5433",
+        "dialect": "postgres"
+    },
+    "production": {
+        "username": "postgres",
+        "password": "postgres",
+        "database": "6info2021-2_production",
+        "host": "localhost",
+        "port": "5433",
+        "dialect": "postgres"
+    }
+  }

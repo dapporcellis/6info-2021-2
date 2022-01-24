@@ -6,6 +6,8 @@ const path = require("path");
 //importação das rotas
 const usuarioRoute = require("./src/routes/usuarioRoute");
 
+require("./database/index.js");
+
 //configuração dos tipos de entradas de dados
 app.use(cookie());
 app.use(express.json());
